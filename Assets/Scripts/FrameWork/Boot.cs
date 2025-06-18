@@ -20,7 +20,7 @@ public class Boot : UnitySingleton<Boot>
     void Start()
     {
         Init();
-        UIManager.Instance.OpenWindow("LoginPanel");
+        UIManager.Instance.OpenWindow("ScrollPanel");
         //GameScenesManager.Instance.LoadSceneAsync("Game", "PlayerPanel");
     }
 
